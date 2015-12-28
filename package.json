@@ -1,7 +1,7 @@
 {
   "name": "worder",
   "version": "1.0.0",
-  "description": "Get the words from a sentence.",
+  "description": "Get the words from the input text.",
   "main": "lib/index.js",
   "directories": {
     "example": "example",

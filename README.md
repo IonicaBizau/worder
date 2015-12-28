@@ -1,6 +1,6 @@
 # worder [![Support this project][donate-now]][paypal-donations]
 
-Get the words from a sentence.
+Get the words from the input text.
 
 ## Installation
 

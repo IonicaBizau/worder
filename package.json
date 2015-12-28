@@ -1,0 +1,33 @@
+{
+  "name": "worder",
+  "version": "1.0.0",
+  "description": "Get the words from a sentence.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "sentence",
+    "words"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "tester": "^1.3.0"
+  },
+  "dependencies": {
+    "tester": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/worder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/worder/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/worder#readme"
+}

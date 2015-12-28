@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/worder/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/worder#readme"
+  "homepage": "https://github.com/IonicaBizau/worder#readme",
+  "contributors": [
+     "Van-Duyet Le <me@duyetdev.com> (http://duyetdev.com)"
+  ]
 }

@@ -7,5 +7,7 @@ tester.describe("running the tests", test => {
         test.expect(worder("Hello World!")).toEqual(["Hello", "World"]);
         test.expect(worder("She doesn't like that!!")).toEqual(["She", "doesn", "t", "like", "that"]);
         test.expect(worder("Tôi là Duyệt")).toEqual(["Tôi", "là", "Duyệt"]);
+        test.expect(worder("Grumpy wizards make toxic brew for the evil Queen and Jack.")).toEqual(["Grumpy", "wizards", "make", "toxic", "brew", "for", "the", "evil", "Queen", "and", "Jack"]);
+        test.expect(worder("Mătușa lui Ioniță i-a dăruit lui Ștefan un câine.")).toEqual(["Mătușa", "lui", "Ioniță", "i", "a", "dăruit", "lui", "Ștefan", "un", "câine"]);
     });
 });

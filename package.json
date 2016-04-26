@@ -1,6 +1,6 @@
 {
   "name": "worder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the words from the input text.",
   "main": "lib/index.js",
   "directories": {
@@ -29,5 +29,16 @@
   "homepage": "https://github.com/IonicaBizau/worder#readme",
   "contributors": [
     "Van-Duyet Le <me@duyetdev.com> (http://duyetdev.com)"
+  ],
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
   ]
 }

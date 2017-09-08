@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Get the words from the input text.
 
 #### Params
+
 - **String** `s`: The input string.
 
 #### Return

@@ -1,6 +1,6 @@
 {
   "name": "worder",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Get the words from the input text.",
   "main": "lib/index.js",
   "directories": {

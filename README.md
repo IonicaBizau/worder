@@ -27,6 +27,9 @@ const worder = require("worder");
 
 console.log(worder("Hello World and Mars!"));
 // => [ 'Hello', 'World', 'and', 'Mars' ]
+
+console.log(worder("X-Men", ["-"]));
+// => [ 'X-Men' ]
 ```
 
 
@@ -45,12 +48,13 @@ There are few ways to get help:
 ## :memo: Documentation
 
 
-### `worder(s)`
+### `worder(s, additionalWordCharacters)`
 Get the words from the input text.
 
 #### Params
 
 - **String** `s`: The input string.
+- **Array** `additionalWordCharacters`: Additional characters which are accepted part of the word (default: `[]`).
 
 #### Return
 - **Array** An array of strings representing the text words.

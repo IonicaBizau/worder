@@ -5,6 +5,8 @@ const tester = require("tester")
 tester.describe("running the tests", test => {
     test.should("take the words from the text", () => {
         test.expect(worder("Hello World!")).toEqual(["Hello", "World"]);
+        test.expect(worder("X-Men")).toEqual(["X", "Men"]);
+        test.expect(worder("X-Men", ["-"])).toEqual(["X-Men"]);
         test.expect(worder("She doesn't like that!!")).toEqual(["She", "doesn", "t", "like", "that"]);
         test.expect(worder("Tôi là Duyệt")).toEqual(["Tôi", "là", "Duyệt"]);
         test.expect(worder("Grumpy wizards make toxic brew for the evil Queen and Jack.")).toEqual(["Grumpy", "wizards", "make", "toxic", "brew", "for", "the", "evil", "Queen", "and", "Jack"]);

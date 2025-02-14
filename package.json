@@ -1,6 +1,6 @@
 {
   "name": "worder",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Get the words from the input text.",
   "main": "lib/index.js",
   "directories": {
@@ -41,6 +41,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
